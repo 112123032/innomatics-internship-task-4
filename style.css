@@ -1,0 +1,318 @@
+@media only screen and (min-width:900px){
+    
+main{
+    width:1350px;
+    height: 4500px;
+    background-color: rgba(230, 222, 222, 0.473);
+    display: grid;
+    grid-template-areas: "container" "container1" "section" "container2"
+   "para1" "container3" "container4"  "para3" "container4-2"
+   "para4" "container5" "para5" "container6" "container7";
+}
+body{
+    width: 1350px;
+}
+*{
+    margin-top: 0px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+li{
+    list-style-type: none;
+    padding: 5px 20px;
+}
+.container{
+    display: flex;
+    padding: 5px 0px ;
+    height: 30px;
+    text-align: center;
+    background-color: rgba(230, 222, 222, 0.473);
+    grid-area: container;
+    padding-left: 70px;
+    width: 1280px;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+svg{
+   padding:5px 15px
+}
+.container1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 18px;
+    grid-area: container1;
+}
+p{
+    padding-top: 3px;
+    font-size: large;
+}
+span{
+    color: blue;
+}
+span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+section{
+    display: grid;
+    grid-template-areas:"box1 box4";
+    grid-area: section;
+}
+
+h1{
+    font-weight: bold ;
+    font-size: 50px;
+    padding-left:45px;
+}
+#span1{
+    color: rgb(70, 71, 73);
+    text-decoration: none;
+}
+.box1{
+    width:650px;
+    padding: 60px 50px;
+}
+.div1{
+    display: flex;
+    justify-content:first baseline  ;
+}
+.div2{
+    display: flex;
+    justify-content:first baseline
+}
+#span2,#span3{
+    color: blue;
+    text-decoration: none;
+}
+.box2{
+    display: flex;
+}
+.box3{
+    display: flex;
+    padding: 10px;
+}
+.box2-1{
+   display: block;
+   padding: 15px;
+}
+.box3-1{
+    display: block; 
+    padding-left: 10px;
+    
+}
+.box1{
+    grid-area: box1;
+}
+.box4{
+    padding-top: 70px;
+    grid-area: box4;
+}
+
+.container2{
+    display: flex;
+    padding-bottom: 80px;
+    grid-area: container2;
+   
+}
+.container3{
+    display: flex;
+    padding-left: 50px;
+    grid-area: container3;
+}
+.box5{
+    position: relative;
+    padding-right: 20px;
+    margin-top: -20px;
+}
+#span5,#span6:hover{
+    text-decoration: none;
+}
+.box6{
+    background-color: white;
+    height: 240px;
+    width:310px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.container4-1{
+    display: flex;
+    padding-left: 20px;
+    margin-top: -20px;
+   grid-area: container4-1;
+}
+.container4-2{
+    display: flex;
+    padding-left: 20px;
+    margin-top: -20px;
+    grid-area: container4-2;
+    
+}
+.bag1{
+    position: absolute; 
+    top:20px;
+     left: 30px;
+}
+.bag2{
+    position: absolute;
+     top:20px; 
+     left:30px;
+}
+.bag3{
+    position: absolute; 
+    bottom:60px; 
+    left:30px;
+}
+button{
+    width: 140px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right:15px ;
+}
+button:hover{
+    background-color: black;
+    text-decoration: underline white;
+    color: white;
+}
+p{
+    width: 1200px;
+    padding-left: 100px;
+}
+#span7{
+    text-decoration: underline;
+    color: grey;
+}
+.container5{
+    display: flex;
+    padding-left: 50px;
+    grid-area: container5;
+}
+#para1{
+    grid-area: para1;
+}
+#container4{
+    grid-area: container4;
+}
+#para3{
+    grid-area: para3;
+}
+#para4{
+    grid-area: para4;
+}
+#para5{
+    grid-area: para5;
+}
+}
+@media only screen and (min-width:100px) and (max-width:900px){
+    body{
+        background-color:rgb(180, 180, 180) ;
+    }
+.main{
+    background-color: rgba(230, 222, 222, 0.473);
+    width: 100%; 
+    height:1000px;
+    display: grid;
+    
+}
+.container1{
+    display: flex;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.icons>svg{
+    padding-right: 30px;
+}
+.container1>svg{
+    visibility: hidden;
+    height: 0px;
+}
+.list{
+    visibility: hidden;
+    height: 0px;
+}
+.bag{
+    background-color: rgba(230, 222, 222, 0.473);
+    padding: 20px 10px;  
+    
+}
+
+.box2{
+    display: flex;
+    justify-content: center;
+}
+.box3{
+    display: flex;
+    justify-content: center;
+}
+.container2{
+   display: grid;
+    justify-content: center;
+}
+
+.container3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.box5{
+    display:grid;
+    justify-content: center;
+    position: relative;
+    margin: 20px 0px;
+}
+#bag1{
+    position: relative;
+    top:20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container4-2{
+    display: grid;
+    justify-content: center;
+    
+}
+.box6{
+    display: block;
+    justify-content: center;
+    height: 240px;
+    width:310px;
+    margin:20px 0px;
+    background-color: white;
+    border-radius: 20px;
+}
+#bag2{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#bag3{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#bag3>div{
+    color: black;
+}
+button{
+    width: 140px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right:15px ;
+}
+button:hover{
+    background-color: black;
+    text-decoration: underline white;
+    color: white;
+}
+}
